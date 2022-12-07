@@ -222,9 +222,9 @@
             gateway_id: "{{ NATGW_out.nat_gateway_id }}"
       register: privRT_out
 
-      - debug:
-          var: "{{item}}"
-          loop:
+    - debug:
+        var: "{{item}}"
+        loop:
             - vpcout.vpc.id
             - pubsub1_out.subnet.id
             - pubsub2_out.subnet.id
