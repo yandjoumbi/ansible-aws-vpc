@@ -1,3 +1,4 @@
+region: us-east-2
 nginx_ami: ami-0283a57753b18025b
 tomcat_ami: ami-0283a57753b18025b
 memcache_ami: ami-0283a57753b18025b
