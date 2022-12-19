@@ -1,3 +1,25 @@
+# VPC Range
+vpcCidr: '172.20.0.0/16'
+
+# Subnets Range
+PubSub1Cidr: 172.20.1.0/24
+PubSub2Cidr: 172.20.2.0/24
+PubSub3Cidr: 172.20.3.0/24
+PrivSub1Cidr: 172.20.4.0/24
+PrivSub2Cidr: 172.20.5.0/24
+PrivSub3Cidr: 172.20.6.0/24
+
+#Region Name
+region: "us-east-2"
+
+#Zones
+Zone1: us-east-2a
+Zone2: us-east-2b
+Zone3: us-east-2c
+
+state: present
+
+#Bastion vars
 bastion_ami: ami-094125af156557ca2
 region: us-west-2
 MYIP: 47.188.74.15/32
