@@ -21,5 +21,5 @@ state: present
 
 #Bastion vars
 bastion_ami: ami-094125af156557ca2
-region: us-west-2
+#region: us-west-2
 MYIP: 47.188.74.15/32
